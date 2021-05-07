@@ -1,0 +1,211 @@
+            @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+            body {
+                background-color: hsl(185, 75%, 39%);
+                font-family: 'Kumbh Sans', sans-serif;
+                font-size: 18px;
+                color: hsl(229, 23%, 23%);
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .wrapper {
+                background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+                background-position: -740px -900px, 600px 400px;
+                background-repeat: no-repeat, no-repeat;
+                background-size: 100%, 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                z-index: -1;
+            }
+            
+            main {
+                height: 100%
+            }
+            
+            .card-component {
+                margin: 0 auto;
+                background-color: white;
+                border-radius: 20px;
+                /* height: 50%;
+    width: 25%; */
+                width: 350px;
+                height: 380px;
+                box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+                background-image: url(images/bg-pattern-card.svg);
+                background-repeat: no-repeat;
+                background-size: right top;
+                background-size: 100%;
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                top: 30%;
+            }
+            
+            .card-component__text {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: 50px;
+            }
+            
+            img {
+                border-radius: 50%;
+                border: 5px solid white;
+                position: absolute;
+                top: 80px;
+            }
+            
+            h4 {
+                text-align: center;
+                position: relative;
+                font-weight: 700;
+            }
+            
+            h6 {
+                text-align: center;
+                font-weight: 400;
+                color: hsl(0, 0%, 59%);
+                position: relative;
+                top: -40px;
+            }
+            
+            .card-component__text--statistics {
+                width: 350px;
+                border-top: 1px solid hsl(0, 0%, 59%);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                position: relative;
+                top: -40px;
+            }
+            
+            .card-component__text--statistics div p {
+                font-size: 11px;
+                font-weight: 400;
+                color: hsl(0, 0%, 59%);
+                text-align: center;
+                letter-spacing: 3px;
+                position: relative;
+                top: -20px;
+            }
+            
+            .card-component__text--headings {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            /*FOOTER*/
+            
+            .attribution {
+                height: 10vh;
+                font-size: 11px;
+                text-align: center;
+                margin-top: auto;
+            }
+            
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+            
+            @media only screen and (max-width:1920px) {
+                .wrapper {
+                    background-position: -1230px -1450px, 720px 340px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width:1800px) {
+                .wrapper {
+                    background-position: -1200px -1250px, 620px 330px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width:1700px) {
+                .wrapper {
+                    background-position: -1200px -1250px, 620px 330px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width:1557px) {
+                .wrapper {
+                    background-position: -1000px -1150px, 590px 330px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width:1366px) {
+                .wrapper {
+                    background-position: -1000px -950px, 420px 300px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width: 1200px) {
+                .wrapper {
+                    background-position: -830px -780px, 440px 290px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width:1024px) {
+                .wrapper {
+                    background-position: -670px -600px, 400px 290px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width: 768px) {
+                .wrapper {
+                    background-position: -590px -280px, 300px 470px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .card-component {
+                    width: 300px;
+                    height: 320px;
+                    top: 30%;
+                }
+                .wrapper {
+                    background-position: -290px -80px, 180px 340px;
+                    background-size: 120%, 120%;
+                }
+                .card-component__text--statistics {
+                    width: 300px;
+                    top: -45px;
+                }
+                img {
+                    top: 60px;
+                }
+                .card-component__text {
+                    top: 60px;
+                }
+            }
+            
+            @media only screen and (max-width: 320px) {
+                .card-component {
+                    width: 250px;
+                    height: 300px;
+                    top: 20%;
+                }
+                .card-component__text--statistics {
+                    width: 250px;
+                    top: -50px;
+                }
+                img {
+                    top: 45px;
+                }
+                .card-component__text {
+                    top: 70px;
+                }
+                .wrapper {
+                    background-image: none;
+                }
+            }
