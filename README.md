@@ -11,7 +11,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Time spent](#time-spent)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -46,7 +45,3 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - GitHub - [@klara-pavlov](https://github.com/klara-pavlov)
 - LinkedIn - [@klara-pavlov](https://www.linkedin.com/in/klara-pavlov/)
 - Instagram - [@klara.pavlov](https://www.instagram.com/klara.pavlov/)
-
-## Time spent
-
-- Time spent: 3 hours
