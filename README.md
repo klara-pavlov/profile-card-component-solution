@@ -22,9 +22,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot2.jpg)
-![](./screenshot3.jpg)
+![](./screenshot.png)
+![](./screenshot_mobile.png)
 
 ### Links
 

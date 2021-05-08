@@ -122,6 +122,13 @@
                 }
             }
             
+            @media only screen and (max-width:1860px) {
+                .wrapper {
+                    background-position: -1200px -1250px, 620px 330px;
+                    background-size: 120%, 120%;
+                }
+            }
+            
             @media only screen and (max-width:1800px) {
                 .wrapper {
                     background-position: -1200px -1250px, 620px 330px;
